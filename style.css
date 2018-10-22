@@ -29,7 +29,7 @@ h1{
  	justify-content: center;
 } */
 
-.btn{
+/* .btn{ 
 	position: absolute;
   	top: 72%;
   	left: 50%;
@@ -45,7 +45,7 @@ h1{
 	background-color: #ff5e1e;
 	border: none;
 	border-radius: 50px;
-}
+} */
 
 .btn:hover{
 	cursor: pointer;

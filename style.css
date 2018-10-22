@@ -24,15 +24,15 @@ h1{
 
 
 
-#btn-pos{
+/* #btn-pos{
 	display: flex;
  	justify-content: center;
-}
+} */
 
 .btn{
 	position: absolute;
   	top: 72%;
-  	left: 100%;
+  	left: 50%;
 
   	/*This right here offsets the element's positioning to somewhere
   	more centered than the default top-left positioning

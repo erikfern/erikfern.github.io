@@ -1,0 +1,67 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+
+  background-image: url("header.jpg"); 
+  background-size: cover;
+  background-position: center;
+}
+
+h1{
+	font-size: 30px;
+
+	color: white;
+	
+	position: relative;
+	text-align: center;
+	top: 30%;
+}
+
+
+
+#btn-pos{
+	display: flex;
+ 	justify-content: center;
+}
+
+.btn{
+	position: absolute;
+  	top: 72%;
+  	left: 50%;
+
+  	/*This right here offsets the element's positioning to somewhere
+  	more centered than the default top-left positioning
+
+  	source: https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/
+  	*/
+  	margin-top: -50px;
+  	margin-left: -100px;
+
+	background-color: #ff5e1e;
+	border: none;
+	border-radius: 50px;
+}
+
+.btn:hover{
+	cursor: pointer;
+	background-color: #dd551a;
+}
+
+#rect-pos{
+	display: flex;
+ 	justify-content: center;
+}
+
+#rectangle {
+ 	position: absolute;
+ 	top: 60%;
+
+    width: 50px;
+    height: 2px;
+    background: #ff5e1e;
+}

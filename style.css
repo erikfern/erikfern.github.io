@@ -30,8 +30,8 @@ h1{
 }
 
 .btn{
-	position: absolute;
-  	top: 73%;
+	position: relative;
+  	top: 72%;
   	left: 50%;
 
   	/*This right here offsets the element's positioning to somewhere

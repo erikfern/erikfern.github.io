@@ -30,7 +30,7 @@ h1{
 }
 
 .btn{
-	position: relative;
+	position: absolute;
   	top: 72%;
   	left: 50%;
 

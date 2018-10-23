@@ -29,7 +29,7 @@ h1{
  	justify-content: center;
 }
 
-.btn{ 
+input .btn{ 
 	position: absolute;
   	top: 72%;
   	left: 50%;

@@ -77,3 +77,8 @@ h1{
     height: 2px;
     background: #ff5e1e;
 }
+
+#mc_embed_signup input {
+    border: none;
+    -webkit-appearance: none;
+}
